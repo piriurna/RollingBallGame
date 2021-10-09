@@ -26,7 +26,7 @@ public class CollisionManager : MonoBehaviour
         Debug.Log("Collision with " + other.tag);
         if (other.CompareTag("Collectible"))
         {
-            other.gameObject.SetActive(false);
+            //other.gameObject.SetActive(false);
             count++;
             displayCounter();
         }
